@@ -6,6 +6,7 @@ app.get('*', function (req, res) {
  res.sendFile(__dirname + '/pages/maintenance.html') // server down page path here
 
   //res.send(__filename)
+  //resss
 })
  
 app.listen(3000,()=>{
